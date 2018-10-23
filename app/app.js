@@ -11,11 +11,11 @@ app.use(express.static('public'));
 
 app.get('/' , function(req , res){
   res.render("index");
-});
+
 
 // connect to database
 if(process.env.DB_HOST) {
-  
+
   mongoose.connect(process.env.DB_HOST);
 
   app.get("/posts" , function(req,res){
