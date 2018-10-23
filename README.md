@@ -1,6 +1,6 @@
 # Test App for CI with Jenkins
 
-## Installation Wubalubadubdub
+## Installation
 
 ```
 cd app
